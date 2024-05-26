@@ -1,0 +1,28 @@
+{
+  "name": "desafioexpress",
+  "version": "1.0.0",
+  "description": "prueba del modulo xpress de desafio Latam para programadores",
+  "main": "index.js",
+  "eslintConfig": {
+    "extends": [
+      "./node_modules/standard/eslintrc.json"
+    ]
+  },
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "Esteban Olivares",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.1",
+    "standard": "^17.1.0"
+  }
+}
